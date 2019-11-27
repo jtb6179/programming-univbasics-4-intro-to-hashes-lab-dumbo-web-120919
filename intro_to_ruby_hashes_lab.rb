@@ -7,11 +7,11 @@ def my_hash
 end
 
 def pioneer
-  name: "Grass hopper"
+  :name => "Grass hopper"
 end
 
 def id_generator
-  :price => 25 
+  {price: 25}
 end
 
 def my_hash_creator(key, value)
