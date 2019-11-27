@@ -15,13 +15,12 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  x = {:key => value}
-  x[key]
+  {:key => value}
+  key
 end
 
 def read_from_hash(hash, key)
   hash[:key]
-  return hash
 end
 
 def update_counting_hash(hash, key)
