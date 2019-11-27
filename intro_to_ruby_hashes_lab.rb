@@ -7,7 +7,7 @@ def my_hash
 end
 
 def pioneer
-  :name => "Grass hopper"
+  {:name => "Grass hopper"}
 end
 
 def id_generator
