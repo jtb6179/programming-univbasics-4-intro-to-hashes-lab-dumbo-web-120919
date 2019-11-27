@@ -16,7 +16,7 @@ end
 
 def my_hash_creator(key, value)
   x = {:key => value}
-  
+  x[key]
 end
 
 def read_from_hash(hash, key)
