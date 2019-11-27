@@ -3,11 +3,11 @@ def new_hash
 end
 
 def my_hash
-  products: "dirty diaper"
+ things = {products: "dirty diaper", travel: "luggages"}
 end
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  name: "Grass hopper"
 end
 
 def id_generator
